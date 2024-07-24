@@ -1,0 +1,30 @@
+<%- include ("partials/header.ejs")%>
+<body>
+    <h1><%= titulo %></h1>
+    <div class="container">
+    <div class="ingredients">
+        <h2>Ingredientes</h2>
+        <ul>
+            <% ingrediente.forEach(function(ingrediente, index) { %>
+                <li><%= ingrediente.name %>
+                    <%= ingrediente.amount %> 
+                    <%= ingrediente.unit %>
+                </li>
+            <% }); %>
+        </ul>
+    </div>
+    <div>
+        <h2>Valores Nutricionales</h2>
+        <ul>
+            <% vn.forEach(function(v, index) { %>
+                <li><%= v.name %>
+                    <%= v.amount %> 
+                    <%= v.unit %>
+                </li>
+            <% }); %>
+        </ul>
+    </div>
+    </div>
+</body>
+
+<%- include ("partials/footer.ejs")%>

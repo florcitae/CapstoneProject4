@@ -1,0 +1,84 @@
+body{
+    background-color: white;
+    font-family: 'inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #1E1E1E;
+}
+header {
+    background-color: #FFCFAB;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0.05%; /* Ajusta según sea necesario */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+footer {
+    background-color: #FFCFAB; /* Fondo del header */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra en el borde */
+    padding: 10px; /* Espaciado interno del header, ajusta según sea necesario */
+    bottom: 0;
+
+    /* Alinear el contenido del header */
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+
+.logo {
+    width: 6%; /* Ajusta el tamaño según necesites */
+    height: auto; /* Ajusta la altura automáticamente */
+    margin-left: 20px; /* Ajusta el margen según sea necesario */
+}
+
+.boton {
+    background-color: #FF914D;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.boton:hover {
+    background-color: white;
+    color: #FF914D;
+}
+
+/* Ingredients */
+.ingredients {
+    margin: 20px 0;
+    background-color: #ffcfab;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.ingredients h2 {
+    margin: 0 0 10px 0;
+}
+
+.ingredients ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ingredients ul li {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+h1{
+    color:#FF914D;
+    font-weight: bolder;
+    margin-top: 1%;
+}
